@@ -37,12 +37,12 @@
   "_spec": "D:\\Users\\Simon\\AppData\\Local\\Temp\\d-116119-9240-19y1v3x\\package.tgz",
   "_where": "D:\\Users\\Simon\\AppData\\Local\\Temp\\apm-install-dir-116119-9240-12rs41l",
   "bugs": {
-    "url": "https://github.com/tocjent/php-integrator-symbol-viewer/issues"
+    "url": "https://github.com/wzhangsz/php-integrator-symbol-viewer/issues"
   },
   "consumedServices": {
     "php-integrator.service": {
       "versions": {
-        "~0.9.0": "init"
+        "^1.0": "init"
       }
     }
   },
@@ -55,7 +55,7 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "homepage": "https://github.com/tocjent/php-integrator-symbol-viewer#readme",
+  "homepage": "https://github.com/wzhangsz/php-integrator-symbol-viewer#readme",
   "keywords": [
     "php",
     "class-info",
@@ -69,11 +69,11 @@
   "main": "./lib/Main",
   "name": "php-integrator-symbol-viewer",
   "optionalDependencies": {},
-  "readme": "# php-integrator-symbol-viewer\nAtom package providing side panel with class information: constants, properties and methods with go-to functionality provided by php-integrator-base package.\n\n### WARNING\nPackage requires [php-integrator-base package](https://github.com/Gert-dev/php-integrator-base).\n![Screenshot](https://raw.githubusercontent.com/tocjent/php-integrator-symbol-viewer/master/img/051_main.gif)\n\n#### Features\n* multiple classes support ![Screenshot](https://raw.githubusercontent.com/tocjent/php-integrator-symbol-viewer/master/img/051_multiple_classes.gif)\n* go to symbol\n![Screenshot](https://raw.githubusercontent.com/tocjent/php-integrator-symbol-viewer/master/img/051_goto.gif)\n* search\n![Screenshot](https://raw.githubusercontent.com/tocjent/php-integrator-symbol-viewer/master/img/051_search.gif)\n* filter inherited properties ![Screenshot](https://raw.githubusercontent.com/tocjent/php-integrator-symbol-viewer/master/img/051_filter.gif)\n\nSpecial thanks go to @Gert-dev for his wonderful work.\n",
+  "readme": "# php-integrator-symbol-viewer\nAtom package providing side panel with class information: constants, properties and methods with go-to functionality provided by php-integrator-base package.\n\n### WARNING\nPackage requires [php-integrator-base package](https://github.com/Gert-dev/php-integrator-base).\n![Screenshot](https://raw.githubusercontent.com/wzhangsz/php-integrator-symbol-viewer/master/img/051_main.gif)\n\n#### Features\n* multiple classes support ![Screenshot](https://raw.githubusercontent.com/wzhangsz/php-integrator-symbol-viewer/master/img/051_multiple_classes.gif)\n* go to symbol\n![Screenshot](https://raw.githubusercontent.com/wzhangsz/php-integrator-symbol-viewer/master/img/051_goto.gif)\n* search\n![Screenshot](https://raw.githubusercontent.com/wzhangsz/php-integrator-symbol-viewer/master/img/051_search.gif)\n* filter inherited properties ![Screenshot](https://raw.githubusercontent.com/wzhangsz/php-integrator-symbol-viewer/master/img/051_filter.gif)\n\nSpecial thanks go to @Gert-dev for his wonderful work.\n",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tocjent/php-integrator-symbol-viewer.git"
+    "url": "git+https://github.com/wzhangsz/php-integrator-symbol-viewer.git"
   },
   "version": "0.6.4"
 }
